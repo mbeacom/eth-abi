@@ -17,7 +17,7 @@ setup(
     url='https://github.com/ethereum/eth-abi',
     include_package_data=True,
     install_requires=[
-        'eth-utils==0.7.*',
+        'eth-utils>=1.0.0-beta.1,<2.0.0',
     ],
     setup_requires=['setuptools-markdown'],
     py_modules=['eth_abi'],
